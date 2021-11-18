@@ -1,13 +1,5 @@
 import React from "react";
 import ReactDom from "react-dom";
-
-const App = () => {
-  return (
-    <React.Fragment>
-      <h1>Hello Anakin.</h1>
-      <p>Hello Luke.</p>
-    </React.Fragment>
-  )
-};
+import App from "./App.js";
 
 ReactDom.render(<App />, document.getElementById("root"));
