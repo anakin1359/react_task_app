@@ -7,7 +7,9 @@ export const App = () => {
     "カッパ"
   ]);
 
-  const [completeTodos, setInCompleteTodos] = useState(["ウサギ"]);
+  const [completeTodos, setInCompleteTodos] = useState([
+    "ウサギ"
+  ]);
 
   return (
     <>
