@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
-import ColorfulMessage from "./components/ColorfulMessage";
+// import ColorfulMessage from "./components/ColorfulMessage";
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
   console.log("ゴリラ");
