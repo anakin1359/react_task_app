@@ -36,7 +36,7 @@ export const App = () => {
           {completeTodos.map((todo) => {
             return (
               <ul key={todo} className="list-row">
-                <li>ウサギ</li>
+                <li>{todo}</li>
                 <button>戻す</button>
               </ul>
             );
